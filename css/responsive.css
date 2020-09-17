@@ -1,0 +1,173 @@
+	@media (min-width: 1439px)
+	{
+		#home .layer
+		{
+			height: 93vh;
+		}
+	}
+
+	@media (max-width: 1440px)
+	{
+		#home .layer
+		{
+			height: 100%;
+		}
+	}
+
+	@media (max-width: 1024px)
+	{
+		.intro-section
+		{
+			position: inherit;
+		}
+		#home .layer 
+		{
+		    height: 87vh;
+		}
+		#aboutme .img-wrapper
+		{
+			padding-top: 0px;
+		}
+		h2
+		{
+			font-size: 3em;
+		}
+		p.side-intro
+		{
+			font-size: 21px;
+		}
+		p.abtpara, p.workpara
+		{
+			font-size: 18px;
+		}
+		#myworks .layer
+		{
+			padding: 50px 0;
+		}
+		
+		#myworks .img-wrapper
+		{
+			height: 270px;
+		}
+		#myblogs
+		{
+			padding: 80px 0;
+		}
+		#contactme .layer
+		{
+			padding: 40px 0;
+		}
+
+	}
+
+	@media (max-width: 780px)
+	{
+		html,body
+		{
+			overflow-y: scroll;
+		}
+
+		#aboutme .img-wrapper figure
+		{
+			width: 100%;
+		}
+		#aboutme .img-wrapper figure img
+		{
+			object-fit: contain;
+		}
+		#aboutme .intro-wrapper
+		{
+			padding-right: 0px;
+			padding-left: 0px;
+		}
+		#myworks .intro-wrapper
+		{
+			padding-right: 0px;
+			padding-left: 35px;
+		}
+		#myworks .img-wrapper
+		{
+			width: 100%;
+		}
+		#contactme .layer
+		{
+			padding: 30px 0;
+		}
+		
+
+	}
+
+	@media (max-width: 580px) 
+	{
+		
+
+		.intro-section
+		{
+			position: relative;
+		}
+		
+		#home .layer 
+		{
+    		height: 75vh;
+    		padding: 80px 0;
+		}
+		h1.name
+		{
+			padding: 0px;
+		}
+		ul#icon-bar
+		{
+			padding-top: 0px;
+		}
+		#aboutme, #myblogs
+		{
+			padding: 50px 0;
+			height: 100%;
+		}
+		#myworks, #myworks .layer, #contactme .layer
+		{
+			height: 100%;
+		}
+		.intro-wrapper
+		{
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		.pb 
+		{
+		    padding-bottom: 35px;
+		}
+		#myworks .img-wrapper
+		{
+			padding: 0 20px;
+		}
+		#form, input, textarea
+		{
+			width: 100%;
+		}
+		#contactme ul#icon-bar
+		{
+			text-align: center;
+		}
+		ul.nav-menu 
+		{
+		    padding-left: 0;
+		}
+		#submit
+		{
+			width: 100%;
+		}
+		
+	}
+
+	
+
+
+	@media (max-width: 375px)
+	{
+		#contactme
+		{
+			height: 100%;
+		}
+	}
+
